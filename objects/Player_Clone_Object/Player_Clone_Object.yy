@@ -6,8 +6,8 @@
   "name":"Player_Clone_Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player Objects",
+    "path":"folders/Objects/Player Objects.yy",
   },
   "parentObjectId":{
     "name":"Player_Object",

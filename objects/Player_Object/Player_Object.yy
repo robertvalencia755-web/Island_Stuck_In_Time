@@ -10,8 +10,8 @@
   "name":"Player_Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Player Objects",
+    "path":"folders/Objects/Player Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -31,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Character_Idle",
+    "path":"sprites/Character_Idle/Character_Idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
