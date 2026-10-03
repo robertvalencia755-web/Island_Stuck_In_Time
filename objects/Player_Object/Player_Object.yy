@@ -35,6 +35,9 @@
     "name":"Character_Idle",
     "path":"sprites/Character_Idle/Character_Idle.yy",
   },
-  "spriteMaskId":null,
+  "spriteMaskId":{
+    "name":"Character_Idle",
+    "path":"sprites/Character_Idle/Character_Idle.yy",
+  },
   "visible":true,
 }

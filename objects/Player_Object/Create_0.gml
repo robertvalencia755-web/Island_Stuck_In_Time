@@ -1,9 +1,12 @@
 movement_list = [];
 
 moveDir = 0;
-moveSpd = 2;
+moveSpd = 4;
 xSpd = 0;
 ySpd = 0;
-grav = .275;
-termVel = 4;
-jmpSpd = -3;
+grav = .35;
+termVel = 10;
+jmpSpd = -7;
+
+//Status
+carrying = false;

@@ -90,6 +90,7 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
+    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
     {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
     {"roomId":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
     {"roomId":{"name":"Castle_Plain","path":"rooms/Castle_Plain/Castle_Plain.yy",},},
@@ -100,7 +101,6 @@
     {"roomId":{"name":"Castle","path":"rooms/Castle/Castle.yy",},},
     {"roomId":{"name":"Forest_2","path":"rooms/Forest_2/Forest_2.yy",},},
     {"roomId":{"name":"Castle_Plain_2","path":"rooms/Castle_Plain_2/Castle_Plain_2.yy",},},
-    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
