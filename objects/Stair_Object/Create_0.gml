@@ -1,0 +1,1 @@
+image_index = Stair_Type;

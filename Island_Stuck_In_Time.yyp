@@ -48,7 +48,6 @@
     {"id":{"name":"Button_Object","path":"objects/Button_Object/Button_Object.yy",},},
     {"id":{"name":"Carryable_Object","path":"objects/Carryable_Object/Carryable_Object.yy",},},
     {"id":{"name":"Gate_Object","path":"objects/Gate_Object/Gate_Object.yy",},},
-    {"id":{"name":"Ground","path":"objects/Ground/Ground.yy",},},
     {"id":{"name":"Ladder","path":"objects/Ladder/Ladder.yy",},},
     {"id":{"name":"Platform_Object","path":"objects/Platform_Object/Platform_Object.yy",},},
     {"id":{"name":"Player_Clone_Object","path":"objects/Player_Clone_Object/Player_Clone_Object.yy",},},
