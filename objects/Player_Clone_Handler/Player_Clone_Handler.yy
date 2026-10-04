@@ -1,19 +1,18 @@
 {
   "$GMObject":"",
-  "%Name":"Spike_Object",
-  "eventList":[],
+  "%Name":"Player_Clone_Handler",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Spike_Object",
+  "name":"Player_Clone_Handler",
   "overriddenProperties":[],
   "parent":{
-    "name":"Interactive Objects",
-    "path":"folders/Objects/Interactive Objects.yy",
+    "name":"Player Objects",
+    "path":"folders/Objects/Player Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Block_Tile",
-    "path":"objects/Block_Tile/Block_Tile.yy",
-  },
-  "persistent":false,
+  "parentObjectId":null,
+  "persistent":true,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
   "physicsFriction":0.2,
@@ -30,10 +29,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"Spike_Sprites",
-    "path":"sprites/Spike_Sprites/Spike_Sprites.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

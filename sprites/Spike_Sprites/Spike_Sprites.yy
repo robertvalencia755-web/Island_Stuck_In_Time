@@ -1,10 +1,10 @@
 {
   "$GMSprite":"v2",
   "%Name":"Spike_Sprites",
-  "bboxMode":0,
+  "bboxMode":2,
   "bbox_bottom":63,
-  "bbox_left":8,
-  "bbox_right":55,
+  "bbox_left":12,
+  "bbox_right":52,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,

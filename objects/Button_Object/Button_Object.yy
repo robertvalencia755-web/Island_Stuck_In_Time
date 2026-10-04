@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"Button_Object",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Player_Object","path":"objects/Player_Object/Player_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Button_Object",
   "overriddenProperties":[],
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Button_sprites",
+    "path":"sprites/Button_sprites/Button_sprites.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

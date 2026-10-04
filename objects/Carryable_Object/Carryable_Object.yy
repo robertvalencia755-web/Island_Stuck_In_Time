@@ -9,7 +9,10 @@
     "name":"Interactive Objects",
     "path":"folders/Objects/Interactive Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Block_Tile",
+    "path":"objects/Block_Tile/Block_Tile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Carryable_Box_Sprite",
+    "path":"sprites/Carryable_Box_Sprite/Carryable_Box_Sprite.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

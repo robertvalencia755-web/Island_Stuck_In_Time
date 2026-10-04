@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"update_Movement",
+  "%Name":"reset_clones",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"update_Movement",
+  "name":"reset_clones",
   "parent":{
-    "name":"Player_Scripts",
-    "path":"folders/Scripts/Player_Scripts.yy",
+    "name":"Clone_Scripts",
+    "path":"folders/Scripts/Clone_Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

@@ -1,9 +1,7 @@
 {
   "$GMObject":"",
   "%Name":"Slab_Object",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "eventList":[],
   "managed":true,
   "name":"Slab_Object",
   "overriddenProperties":[],
@@ -31,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Slab_Sprites",
+    "path":"sprites/Slab_Sprites/Slab_Sprites.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

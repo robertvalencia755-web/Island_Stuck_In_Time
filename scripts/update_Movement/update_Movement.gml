@@ -23,13 +23,20 @@ function update_Movement(character_input){
 		
 		
 	//Y Movement Logic
-		var onGround = place_meeting(x, y + 1, Block_Tile) || place_meeting(x, y + 1, Platform_Object);
+		
 		ySpd += grav;
 		ySpd = min(ySpd, termVel);
-	
+		
+		//Jumping Logic
 		if (character_input.jump && onGround){
 			ySpd = jmpSpd;
 		}
+		
+		//Ladder Logic
+		if (character_input.up && place_meeting(x, y, Ladder)){
+			ySpd = -4;
+		}
+		
 		
 		//Collision
 		if (place_meeting(x, y + ySpd, Block_Tile)){
@@ -39,7 +46,19 @@ function update_Movement(character_input){
 			}
 			ySpd = 0;
 		}
+		
+		//Platform Collision
+		//
+		
+		
+		
+		
 		y += ySpd;
+		
+		
+		
+		
+		
 		
 		
 	// ANIMATION

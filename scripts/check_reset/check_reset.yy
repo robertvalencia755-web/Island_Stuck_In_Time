@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Player_Input_Struct",
+  "%Name":"check_reset",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Player_Input_Struct",
+  "name":"check_reset",
   "parent":{
     "name":"Player_Scripts",
     "path":"folders/Scripts/Player_Scripts.yy",

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"Player_Input_Struct",
+  "%Name":"update_input",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"Player_Input_Struct",
+  "name":"update_input",
   "parent":{
     "name":"Player_Scripts",
     "path":"folders/Scripts/Player_Scripts.yy",

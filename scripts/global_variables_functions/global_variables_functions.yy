@@ -1,12 +1,12 @@
 {
   "$GMScript":"v1",
-  "%Name":"update_Movement",
+  "%Name":"global_variables_functions",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"update_Movement",
+  "name":"global_variables_functions",
   "parent":{
-    "name":"Player_Scripts",
-    "path":"folders/Scripts/Player_Scripts.yy",
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
   },
   "resourceType":"GMScript",
   "resourceVersion":"2.0",

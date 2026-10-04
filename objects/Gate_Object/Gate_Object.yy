@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Stone_Gate",
+    "path":"sprites/Stone_Gate/Stone_Gate.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
