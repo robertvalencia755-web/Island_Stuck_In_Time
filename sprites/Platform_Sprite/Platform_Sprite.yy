@@ -2,7 +2,7 @@
   "$GMSprite":"v2",
   "%Name":"Platform_Sprite",
   "bboxMode":2,
-  "bbox_bottom":43,
+  "bbox_bottom":24,
   "bbox_left":20,
   "bbox_right":167,
   "bbox_top":16,

@@ -9,10 +9,7 @@
     "name":"Interactive Objects",
     "path":"folders/Objects/Interactive Objects.yy",
   },
-  "parentObjectId":{
-    "name":"Block_Tile",
-    "path":"objects/Block_Tile/Block_Tile.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

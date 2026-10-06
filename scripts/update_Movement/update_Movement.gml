@@ -53,8 +53,17 @@ function update_Movement(character_input){
 			ySpd = 0;
 		}
 		
-		//Platform Collision
-
+		
+		// Find the other instance we might be touching
+		if ((ySpd > 0) && !place_meeting(x, y, Platform_Object)){
+			if (place_meeting(x, y + ySpd, Platform_Object)){
+				var _pixelCheck = _subpixel * sign(ySpd);
+				while(!place_meeting(x, y + _pixelCheck, Platform_Object)){
+					y += _pixelCheck;
+				}
+				ySpd = 0;
+			}
+		}
 		
 		
 		y += ySpd;

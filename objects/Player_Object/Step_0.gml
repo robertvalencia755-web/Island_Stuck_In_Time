@@ -14,14 +14,14 @@ var character_input = new PlayerInput(
 array_push(movement_list, character_input);
 
 //update ground state
-onGround = place_meeting(x, y + 1, Block_Tile) || place_meeting(x, bbox_bottom + 1, Platform_Object);
+onGround = place_meeting(x, y + 1, Block_Tile) || place_meeting(x, y + 1, Platform_Object);
 
 update_input(character_input);
 
 
 
-//
+//Debugging position reset ----DELETE LATER----
 if (keyboard_check(ord("R"))){
-	x = spawnX;
-	y = spawnY;
+	x = global.spawnX;
+	y = global.spawnY;
 }

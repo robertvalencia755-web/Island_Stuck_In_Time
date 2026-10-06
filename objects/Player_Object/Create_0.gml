@@ -16,4 +16,5 @@ carrying = false;
 var carriedItem;
 onGround = true;
 facing = 1;
+var cloneAvailable;
 
