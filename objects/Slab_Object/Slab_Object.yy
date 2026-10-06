@@ -9,7 +9,10 @@
     "name":"World Building Objects",
     "path":"folders/Objects/World Building Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Block_Tile",
+    "path":"objects/Block_Tile/Block_Tile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

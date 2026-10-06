@@ -14,7 +14,7 @@ var character_input = new PlayerInput(
 array_push(movement_list, character_input);
 
 //update ground state
-onGround = place_meeting(x, y + 1, Block_Tile) || place_meeting(x, y + 1, Platform_Object);
+onGround = place_meeting(x, y + 1, Block_Tile);
 
 update_input(character_input);
 

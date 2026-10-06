@@ -33,10 +33,6 @@ function update_Movement(character_input){
 		ySpd += grav;
 		ySpd = min(ySpd, termVel);
 		
-		//Jumping Logic
-		if (character_input.jump && onGround){
-			ySpd = jmpSpd;
-		}
 		
 		//Ladder Logic
 		if (character_input.up && place_meeting(x, y, Ladder)){
@@ -54,7 +50,7 @@ function update_Movement(character_input){
 		}
 		
 		
-		// Find the other instance we might be touching
+		//Platform collision
 		if ((ySpd > 0) && !place_meeting(x, y, Platform_Object)){
 			if (place_meeting(x, y + ySpd, Platform_Object)){
 				var _pixelCheck = _subpixel * sign(ySpd);
@@ -62,7 +58,13 @@ function update_Movement(character_input){
 					y += _pixelCheck;
 				}
 				ySpd = 0;
+				onGround = true;
 			}
+		}
+		
+		//Jumping Logic
+		if (character_input.jump && onGround){
+			ySpd = jmpSpd;
 		}
 		
 		
