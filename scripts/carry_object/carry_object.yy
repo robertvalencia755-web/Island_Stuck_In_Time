@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"carry_object",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"carry_object",
+  "parent":{
+    "name":"Carrying_Logic",
+    "path":"folders/Scripts/Player_Scripts/Carrying_Logic.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

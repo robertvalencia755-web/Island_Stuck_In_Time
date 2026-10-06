@@ -20,3 +20,7 @@ function reset_clones(){
 		clone.current_move =  0;
 	}
 }
+
+function clear_clones(){
+	clone_movements = [];
+}

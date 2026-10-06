@@ -4,8 +4,14 @@ function update_Movement(character_input){
 	
 	//X Movement Logic
 		moveDir = character_input.right - character_input.left;
-		if (moveDir > 0) image_xscale = 1;
-		if (moveDir < 0) image_xscale = -1;
+		if (moveDir > 0) {
+			image_xscale = 1;
+			facing = 1;
+		}
+		if (moveDir < 0) {
+			image_xscale = -1; 
+			facing = -1;
+		}
 	
 		xSpd = moveDir * moveSpd;
 		
@@ -48,9 +54,7 @@ function update_Movement(character_input){
 		}
 		
 		//Platform Collision
-		//
-		
-		
+
 		
 		
 		y += ySpd;
