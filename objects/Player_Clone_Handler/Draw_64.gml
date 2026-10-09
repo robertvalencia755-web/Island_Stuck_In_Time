@@ -1,0 +1,1 @@
+//draw_text(20, 100, "clone_movement_size?: " + string(clone_movements));
