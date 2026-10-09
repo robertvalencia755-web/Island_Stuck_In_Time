@@ -1,7 +1,5 @@
 function update_Movement(character_input){
 	
-		
-	
 	//X Movement Logic
 		moveDir = character_input.right - character_input.left;
 		if (moveDir > 0) {

@@ -1,13 +1,18 @@
 {
   "$GMObject":"",
   "%Name":"Player_Clone_Object",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"Spike_Object","path":"objects/Spike_Object/Spike_Object.yy",},"eventNum":0,"eventType":4,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":1,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Player_Clone_Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Player Objects",
-    "path":"folders/Objects/Player Objects.yy",
+    "name":"Player Clone Objects",
+    "path":"folders/Objects/Player Clone Objects.yy",
   },
   "parentObjectId":{
     "name":"Player_Object",
@@ -30,7 +35,13 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
-  "spriteMaskId":null,
+  "spriteId":{
+    "name":"Character_Idle",
+    "path":"sprites/Character_Idle/Character_Idle.yy",
+  },
+  "spriteMaskId":{
+    "name":"Character_Idle",
+    "path":"sprites/Character_Idle/Character_Idle.yy",
+  },
   "visible":true,
 }

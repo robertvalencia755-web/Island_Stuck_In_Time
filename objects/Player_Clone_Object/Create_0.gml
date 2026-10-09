@@ -1,6 +1,5 @@
-//Player attributes
+//Clone Attributes
 movement_list = [];
-var character_input;
 
 //Movement Variables
 moveDir = 0;
@@ -17,3 +16,4 @@ var carriedItem;
 onGround = true;
 facing = 1;
 
+image_blend = c_blue;

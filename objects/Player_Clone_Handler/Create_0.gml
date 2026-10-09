@@ -15,12 +15,12 @@ function reset_clones(){
 	instance_destroy(Player_Clone_Object);
 	
 	for (var i = 0; i < array_length(clone_movements); i ++){
-		var clone = instance_create_layer(spawnX, spawnY, "Player", Player_Clone_Object);
+		clone = instance_create_layer(global.spawnX, global.spawnY, "Clones", Player_Clone_Object);
 		clone.movement_list = clone_movements[i];
-		clone.current_move =  0;
 	}
 }
 
 function clear_clones(){
+	instance_destroy(Player_Clone_Object);
 	clone_movements = [];
 }
