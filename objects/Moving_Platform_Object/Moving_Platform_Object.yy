@@ -3,6 +3,7 @@
   "%Name":"Moving_Platform_Object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Moving_Platform_Object",
@@ -29,8 +30,18 @@
   "physicsShapePoints":[],
   "physicsStartAwake":true,
   "properties":[
-    {"$GMObjectProperty":"v2","%Name":"Left_Point","filters":[],"listItems":[],"multiselect":false,"name":"Left_Point","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
-    {"$GMObjectProperty":"v2","%Name":"Right_Point","filters":[],"listItems":[],"multiselect":false,"name":"Right_Point","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0.0","varType":0,},
+    {"$GMObjectProperty":"v2","%Name":"Movement_Type","filters":[],"listItems":[
+        "\"HORIZONTAL\"",
+        "\"VERTICAL\"",
+      ],"multiselect":false,"name":"Movement_Type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"HORIZONTAL\"","varType":6,},
+    {"$GMObjectProperty":"v2","%Name":"Movement_Direction","filters":[],"listItems":[
+        "\"LEFT\"",
+        "\"RIGHT\"",
+        "\"DOWN\"",
+        "\"UP\"",
+      ],"multiselect":false,"name":"Movement_Direction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"LEFT\"","varType":6,},
+    {"$GMObjectProperty":"v2","%Name":"Movement_Speed","filters":[],"listItems":[],"multiselect":false,"name":"Movement_Speed","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"Blocks","filters":[],"listItems":[],"multiselect":false,"name":"Blocks","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
