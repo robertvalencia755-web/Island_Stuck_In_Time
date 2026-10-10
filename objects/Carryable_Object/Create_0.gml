@@ -14,6 +14,7 @@ function carry(_x, _y){
 function place(_x, _y, facing){
 	var positionX
 
+	//Check where character facing
 	if (facing == 1){ //if character facing right
 		positionX = _x + (sprite_get_width(Character_Carry)/2) + offsetX;
 		
@@ -23,13 +24,20 @@ function place(_x, _y, facing){
 	
 	//Check if placing would clip into another block
 	if (place_meeting(positionX, y + offsetY, Block_Tile) || place_meeting(positionX, y + offsetY, Platform_Object) || place_meeting(positionX, y + offsetY, Carryable_Object)){
-		//Try placing it lower
-		//if (place_meeting(positionX, y, Block_Tile) || place_meeting(positionX, y, Platform_Object) || place_meeting(positionX, y, Carryable_Object)){}
 		return false;
-	} else {
+	} else { // place the block
+		carried = false;
 		x = positionX;
 		y += offsetY;
-		carried = false;
 		return true;
 	}
+}
+
+function death_place(_x, _y){
+	carried = false;
+	x = _x;
+	y = _y;
+	return true;
+	
+	
 }

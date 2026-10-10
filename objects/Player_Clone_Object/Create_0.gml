@@ -12,8 +12,9 @@ jmpSpd = -7;
 
 //Statuses
 carrying = false;
-var carriedItem;
+carriedItem = noone;
 onGround = true;
 facing = 1;
+currentMove = 0;
 
 image_blend = c_blue;

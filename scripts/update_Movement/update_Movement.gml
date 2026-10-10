@@ -13,9 +13,10 @@ function update_Movement(character_input){
 	
 		xSpd = moveDir * moveSpd;
 		
-		//Collision
+		//Basic Collision
 		var _subpixel = .5;
-		if place_meeting(x + xSpd, y, Block_Tile){
+		if (place_meeting(x + xSpd, y, Block_Tile)){
+			
 			var _pixelCheck = _subpixel * sign(xSpd);
 			while !place_meeting(x + _pixelCheck, y, Block_Tile){
 				x += _pixelCheck;
@@ -38,7 +39,7 @@ function update_Movement(character_input){
 		}
 		
 		
-		//Collision
+		//Basic Collision
 		if (place_meeting(x, y + ySpd, Block_Tile)){
 			var _pixelCheck = _subpixel * sign(ySpd);
 			while(!place_meeting(x, y + _pixelCheck, Block_Tile)){

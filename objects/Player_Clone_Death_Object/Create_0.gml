@@ -1,1 +1,1 @@
-image_blend = c_blue;
+alarm[0] = 10;

@@ -1,5 +1,4 @@
-if (carrying == true) carriedItem.place(x, y, facing);
+if (carrying == true) carriedItem.death_place(x, y);
 Player_Clone_Handler.add_clone(movement_list);
 Player_Clone_Handler.reset_clones();
-instance_create_layer(x,y,"Player",Player_Death_Object);
 instance_destroy();

@@ -14,8 +14,9 @@ if (carried){
 		ySpd = 0;
 	}
 	
-
-	if (place_meeting(x, y + ySpd, Platform_Object)){
+	
+	//Platform Collisions
+	if (place_meeting(x, y + ySpd, Platform_Object) &&  !place_meeting(x, y, Platform_Object)){
 		var _pixelCheck = .5 * sign(ySpd);
 		while(!place_meeting(x, y + _pixelCheck, Platform_Object)){
 			y += _pixelCheck;

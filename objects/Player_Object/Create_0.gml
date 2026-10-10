@@ -13,7 +13,7 @@ jmpSpd = -7;
 
 //Statuses
 carrying = false;
-var carriedItem;
+carriedItem = noone;
 onGround = true;
 facing = 1;
 

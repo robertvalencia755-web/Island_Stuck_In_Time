@@ -23,7 +23,10 @@ function carry_object(character_input){
 		}
 	} else if (carrying && character_input.grab){ //place carryable infront of the player 
 		var placed = carriedItem.place(x, y, facing);
-		if (placed) carrying = false;
+		if (placed) {
+			carrying = false;
+			carriedItem = noone;
+		}
 	} else if (carrying){
 		//continue passing player coordinates
 		carriedItem.carry(x, y);
