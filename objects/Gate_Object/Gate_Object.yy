@@ -1,7 +1,10 @@
 {
   "$GMObject":"",
   "%Name":"Gate_Object",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"Gate_Object",
   "overriddenProperties":[],
@@ -9,7 +12,10 @@
     "name":"Interactive Objects",
     "path":"folders/Objects/Interactive Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Block_Tile",
+    "path":"objects/Block_Tile/Block_Tile.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -23,7 +29,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"channel","filters":[],"listItems":[],"multiselect":false,"name":"channel","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"Gate_Type","filters":[],"listItems":[
+        "Stone_Gate",
+        "Wood_Gate",
+      ],"multiselect":false,"name":"Gate_Type","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Stone_Gate","varType":6,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
