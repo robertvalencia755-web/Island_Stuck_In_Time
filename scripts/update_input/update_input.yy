@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_input",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_input",
+  "parent":{
+    "name":"Player_Scripts",
+    "path":"folders/Scripts/Player_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
