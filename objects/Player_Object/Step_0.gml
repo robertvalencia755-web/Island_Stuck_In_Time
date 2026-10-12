@@ -12,8 +12,7 @@ character_input = new PlayerInput(
 //push struct into movement_list
 array_push(movement_list, character_input);
 
-//update ground state
-onGround = place_meeting(x, y + 1, Block_Tile);
+
 
 update_input(character_input);
 

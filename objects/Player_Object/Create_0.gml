@@ -15,5 +15,6 @@ jmpSpd = -7;
 carrying = false;
 carriedItem = noone;
 onGround = true;
+standingOn = noone;
 facing = 1;
 

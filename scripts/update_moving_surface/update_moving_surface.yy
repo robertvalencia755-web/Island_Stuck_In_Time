@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"update_moving_surface",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"update_moving_surface",
+  "parent":{
+    "name":"Player_Scripts",
+    "path":"folders/Scripts/Player_Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}

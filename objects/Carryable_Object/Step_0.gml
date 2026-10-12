@@ -1,3 +1,6 @@
+prevX = x;
+prevY = y;
+
 if (carried){
 	x = otherX;
 	y = otherY;
@@ -27,3 +30,6 @@ if (carried){
 	y += ySpd;
 	
 }
+
+deltaX = x - prevX;
+deltaY = y - prevY;

@@ -5,6 +5,12 @@ var otherX;
 var otherY;
 ySpd = 0;
 
+prevX = x;
+prevY = y;
+
+deltaX = 0;
+deltaY = 0;
+
 function carry(_x, _y){
 	carried = true;
 	otherX = _x;

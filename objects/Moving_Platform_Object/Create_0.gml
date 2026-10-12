@@ -19,4 +19,9 @@ if (Movement_Type == "HORIZONTAL"){
 	}
 }
 
-	
+
+prevX = x;
+prevY = y;
+
+deltaX = 0;
+deltaY = 0;

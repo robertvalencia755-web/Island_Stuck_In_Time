@@ -13,6 +13,8 @@ function update_Movement(character_input){
 	
 		xSpd = moveDir * moveSpd;
 		
+		
+		
 		//Basic Collision
 		var _subpixel = .5;
 		if (place_meeting(x + xSpd, y, Block_Tile)){
@@ -27,10 +29,14 @@ function update_Movement(character_input){
 		x += xSpd;
 		
 		
+		
 	//Y Movement Logic
 		
 		ySpd += grav;
 		ySpd = min(ySpd, termVel);
+		
+		//update ground state
+		onGround = place_meeting(x, y + 1, Block_Tile);
 		
 		
 		//Ladder Logic
@@ -47,6 +53,7 @@ function update_Movement(character_input){
 			}
 			ySpd = 0;
 		}
+		
 		
 		
 		//Platform collision
