@@ -2,19 +2,15 @@ function update_Movement(character_input){
 	
 	//X Movement Logic
 		moveDir = character_input.right - character_input.left;
-		if (moveDir > 0) {
-			image_xscale = 1;
-			facing = 1;
-		}
-		if (moveDir < 0) {
-			image_xscale = -1; 
-			facing = -1;
+		if (moveDir != 0) {
+			facing = sign(moveDir);
+			image_xscale = facing;
 		}
 	
-		xSpd = moveDir * moveSpd;
+		hspeed = moveDir * moveSpd;
 		
 		
-		
+		/*
 		//Basic Collision
 		var _subpixel = .5;
 		if (place_meeting(x + xSpd, y, Block_Tile)){
@@ -26,25 +22,31 @@ function update_Movement(character_input){
 		
 			xSpd = 0;
 		}
-		x += xSpd;
+		*/
 		
 		
 		
 	//Y Movement Logic
 		
-		ySpd += grav;
-		ySpd = min(ySpd, termVel);
+		
 		
 		//update ground state
 		onGround = place_meeting(x, y + 1, Block_Tile);
 		
+		//gravity logic
+		if (onGround){
+			gravity = 0;
+			vspeed = 0;
+		} else {
+			gravity = .35;
+		}
 		
 		//Ladder Logic
 		if (character_input.up && place_meeting(x, y, Ladder)){
-			ySpd = -4;
+			vspeed = -4;
 		}
 		
-		
+		/*
 		//Basic Collision
 		if (place_meeting(x, y + ySpd, Block_Tile)){
 			var _pixelCheck = _subpixel * sign(ySpd);
@@ -53,9 +55,10 @@ function update_Movement(character_input){
 			}
 			ySpd = 0;
 		}
+		*/
 		
 		
-		
+		/*
 		//Platform collision
 		if ((ySpd > 0) && !place_meeting(x, y, Platform_Object)){
 			if (place_meeting(x, y + ySpd, Platform_Object)){
@@ -67,14 +70,14 @@ function update_Movement(character_input){
 				onGround = true;
 			}
 		}
+		*/
 		
 		//Jumping Logic
 		if (character_input.jump && onGround){
-			ySpd = jmpSpd;
+			vspeed = jmpSpd;
 		}
-		
-		
-		y += ySpd;
+
+		vspeed = min(vspeed, termVel);
 		
 		
 		

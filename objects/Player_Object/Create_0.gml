@@ -6,8 +6,9 @@ var character_input;
 moveDir = 0;
 moveSpd = 4;
 xSpd = 0;
-ySpd = 0;
-grav = .35;
+vspeed = 0;
+gravity = .35;
+gravity_direction = 270
 termVel = 10;
 jmpSpd = -7;
 
