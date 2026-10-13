@@ -1,0 +1,1 @@
+instance_create_layer(x, y, "Interactives", Barrel_Broken_Object);
