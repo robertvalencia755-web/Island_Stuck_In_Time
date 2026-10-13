@@ -1,4 +1,5 @@
 carried = false;
+onGround = true;
 offsetX = 15;
 offsetY = 64;
 var otherX;

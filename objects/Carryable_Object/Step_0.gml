@@ -1,6 +1,8 @@
 prevX = x;
 prevY = y;
 
+onGround = false;
+
 if (carried){
 	x = otherX;
 	y = otherY;
@@ -15,6 +17,7 @@ if (carried){
 			y += _pixelCheck;
 		}
 		ySpd = 0;
+		onGround = true;
 	}
 	
 	
@@ -25,6 +28,7 @@ if (carried){
 			y += _pixelCheck;
 		}
 		ySpd = 0;
+		onGround = true;
 	}
 	
 	y += ySpd;

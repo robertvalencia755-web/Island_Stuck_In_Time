@@ -18,13 +18,15 @@ function update_Movement(character_input){
 		//Basic Collision
 		var _subpixel = .5;
 		if (place_meeting(x + xSpd, y, Block_Tile)){
-			
-			var _pixelCheck = _subpixel * sign(xSpd);
-			while !place_meeting(x + _pixelCheck, y, Block_Tile){
-				x += _pixelCheck;
-			}
+			box = instance_place(x + xSpd, y, Carryable_Object);
+			if ((box == noone) || (box.carried == false)){
+				var _pixelCheck = _subpixel * sign(xSpd);
+				while !place_meeting(x + _pixelCheck, y, Block_Tile){
+					x += _pixelCheck;
+				}
 		
-			xSpd = 0;
+				xSpd = 0;
+			}
 		}
 		x += xSpd;
 		
@@ -45,14 +47,31 @@ function update_Movement(character_input){
 		}
 		
 		
-		//Basic Collision
-		if (place_meeting(x, y + ySpd, Block_Tile)){
-			var _pixelCheck = _subpixel * sign(ySpd);
-			while(!place_meeting(x, y + _pixelCheck, Block_Tile)){
-				y += _pixelCheck;
+		//Carryable collision
+		box = instance_place(x, y + ySpd, Carryable_Object);
+		
+		if ((box == noone) || (box.carried == false)){
+			if (place_meeting(x, y + ySpd, Block_Tile)){ //Block Collision
+				var _pixelCheck = _subpixel * sign(ySpd);
+				while(!place_meeting(x, y + _pixelCheck, Block_Tile)){
+					y += _pixelCheck;
+				}
+				ySpd = 0;
 			}
-			ySpd = 0;
+		} else{	
+			if ((ySpd > 0) && !place_meeting(x, y, Carryable_Object)){
+				if (place_meeting(x, y + ySpd, Carryable_Object)){
+					var _pixelCheck = _subpixel * sign(ySpd);
+					while(!place_meeting(x, y + _pixelCheck, Carryable_Object)){
+						y += _pixelCheck;
+					}
+					ySpd = 0;
+					onGround = true;
+				}
+			}
 		}
+		
+
 		
 		
 		
