@@ -3,13 +3,15 @@
   "%Name":"Start_Button_Object",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":10,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":11,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"Start_Button_Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Main_Menu",
-    "path":"folders/Objects/Menu Objects/Main_Menu.yy",
+    "name":"Menu Objects",
+    "path":"folders/Objects/Menu Objects.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +31,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Start_Button",
+    "path":"sprites/Start_Button/Start_Button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

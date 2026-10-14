@@ -1,3 +1,3 @@
 global.spawnX = 56;
-global.spawnY = 568;
+global.spawnY = 600;
 

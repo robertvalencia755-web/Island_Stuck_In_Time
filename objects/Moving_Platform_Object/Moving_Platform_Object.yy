@@ -43,6 +43,7 @@
       ],"multiselect":false,"name":"Movement_Direction","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"\"LEFT\"","varType":6,},
     {"$GMObjectProperty":"v2","%Name":"Movement_Speed","filters":[],"listItems":[],"multiselect":false,"name":"Movement_Speed","rangeEnabled":true,"rangeMax":10.0,"rangeMin":1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
     {"$GMObjectProperty":"v2","%Name":"Blocks","filters":[],"listItems":[],"multiselect":false,"name":"Blocks","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"0","varType":1,},
+    {"$GMObjectProperty":"v2","%Name":"Button_Channel","filters":[],"listItems":[],"multiselect":false,"name":"Button_Channel","rangeEnabled":true,"rangeMax":10.0,"rangeMin":-1.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"-1","varType":1,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

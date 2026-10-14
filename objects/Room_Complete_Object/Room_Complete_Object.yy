@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Room_Comlete_Hitbox",
+    "path":"sprites/Room_Comlete_Hitbox/Room_Comlete_Hitbox.yy",
+  },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

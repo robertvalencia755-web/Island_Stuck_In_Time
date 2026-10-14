@@ -17,10 +17,3 @@ array_push(movement_list, character_input);
 
 update_input(character_input);
 
-
-
-//Debugging position reset ----DELETE LATER----
-if (keyboard_check(ord("R"))){
-	x = global.spawnX;
-	y = global.spawnY;
-}

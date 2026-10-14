@@ -8,10 +8,13 @@
   "name":"Unpause_Button_Object",
   "overriddenProperties":[],
   "parent":{
-    "name":"Pause_Menu",
-    "path":"folders/Objects/Menu Objects/Pause_Menu.yy",
+    "name":"Menu Objects",
+    "path":"folders/Objects/Menu Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"Start_Button_Object",
+    "path":"objects/Start_Button_Object/Start_Button_Object.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -29,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"Unpause_Button",
+    "path":"sprites/Unpause_Button/Unpause_Button.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
