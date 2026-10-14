@@ -1,4 +1,5 @@
 function update_Movement(character_input){
+	onGround = false;
 	
 	//X Movement Logic
 		moveDir = character_input.right - character_input.left;
@@ -34,8 +35,13 @@ function update_Movement(character_input){
 		
 	//Y Movement Logic
 		
-		ySpd += grav;
-		ySpd = min(ySpd, termVel);
+		if (standingOn == noone){
+			ySpd += grav;
+			ySpd = min(ySpd, termVel);
+		} else {
+			ySpd = 0;
+			onGround = true;
+		}
 		
 		//update ground state
 		onGround = place_meeting(x, y + 1, Block_Tile);
@@ -71,9 +77,6 @@ function update_Movement(character_input){
 			}
 		}
 		
-
-		
-		
 		
 		//Platform collision
 		if ((ySpd > 0) && !place_meeting(x, y, Platform_Object)){
@@ -90,6 +93,8 @@ function update_Movement(character_input){
 		//Jumping Logic
 		if (character_input.jump && onGround){
 			ySpd = jmpSpd;
+			standingOn = noone;
+			onGround = false;
 		}
 		
 		

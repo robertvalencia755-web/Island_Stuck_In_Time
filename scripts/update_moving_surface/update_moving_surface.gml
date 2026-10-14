@@ -1,12 +1,26 @@
 function update_moving_surface() {
 
-    if (standingOn != noone) {
+    if (standingOn == noone || !instance_exists(standingOn)) {
+        return;
+    }
 
-        var _dx = standingOn.deltaX;
-        var _dy = standingOn.deltaY;
+    var _surface = standingOn;
 
-        // Move with platform
+    var _dx = _surface.deltaX;
+    var _dy = _surface.deltaY;
+
+    // Only follow the surface while standing on it
+    if (bbox_right > _surface.bbox_left &&
+        bbox_left < _surface.bbox_right) {
+
+        // Move with surface
         x += _dx;
         y += _dy;
+
+        // Prevent downward gravity from separating
+        // the player from the moving surface
+        if (ySpd > 0) {
+            ySpd = 0;
+        }
     }
 }

@@ -1,0 +1,1 @@
+draw_text(300, 60, "Lives: " + string(lives));
