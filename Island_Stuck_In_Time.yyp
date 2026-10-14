@@ -66,6 +66,7 @@
     {"id":{"name":"Player_Clone_Death_Object","path":"objects/Player_Clone_Death_Object/Player_Clone_Death_Object.yy",},},
     {"id":{"name":"Player_Clone_Handler","path":"objects/Player_Clone_Handler/Player_Clone_Handler.yy",},},
     {"id":{"name":"Player_Clone_Object","path":"objects/Player_Clone_Object/Player_Clone_Object.yy",},},
+    {"id":{"name":"Player_Controller","path":"objects/Player_Controller/Player_Controller.yy",},},
     {"id":{"name":"Player_Death_Object","path":"objects/Player_Death_Object/Player_Death_Object.yy",},},
     {"id":{"name":"Player_Object","path":"objects/Player_Object/Player_Object.yy",},},
     {"id":{"name":"Slab_Object","path":"objects/Slab_Object/Slab_Object.yy",},},

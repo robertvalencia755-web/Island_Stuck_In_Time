@@ -18,5 +18,19 @@ function get_standing() {
         }
     }
 
+
+    // Check whether the previous surface is still below us
+    if (standingOn != noone && instance_exists(standingOn)) {
+
+        if (
+            bbox_right > standingOn.bbox_left &&
+            bbox_left < standingOn.bbox_right &&
+            abs(bbox_bottom - standingOn.bbox_top) <=
+                max(1, abs(standingOn.deltaY) + 1)
+        ) {
+            return standingOn;
+        }
+    }
+
     return noone;
 }
