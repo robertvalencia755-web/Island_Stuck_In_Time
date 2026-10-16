@@ -120,6 +120,7 @@
     {"id":{"name":"Character_Walk","path":"sprites/Character_Walk/Character_Walk.yy",},},
     {"id":{"name":"Empty_Mask","path":"sprites/Empty_Mask/Empty_Mask.yy",},},
     {"id":{"name":"Exit_Button","path":"sprites/Exit_Button/Exit_Button.yy",},},
+    {"id":{"name":"Forest_1_Sprite","path":"sprites/Forest_1_Sprite/Forest_1_Sprite.yy",},},
     {"id":{"name":"Ladder_Sprite","path":"sprites/Ladder_Sprite/Ladder_Sprite.yy",},},
     {"id":{"name":"Main_Menu_bg","path":"sprites/Main_Menu_bg/Main_Menu_bg.yy",},},
     {"id":{"name":"Platform_Sprite","path":"sprites/Platform_Sprite/Platform_Sprite.yy",},},

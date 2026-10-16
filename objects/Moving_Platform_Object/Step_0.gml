@@ -57,16 +57,8 @@ if (button == false || move == true){
 }
 
 
+deltaX = x - prevX;
+deltaY = y - prevY;
 
-
-
-
-
-
-
-
-
-
-
-
-
+prevX = x;
+prevY = y;

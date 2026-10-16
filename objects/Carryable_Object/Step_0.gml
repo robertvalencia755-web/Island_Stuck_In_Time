@@ -35,5 +35,7 @@ if (carried){
 	
 }
 
+standingOn = instance_place(x, y - 1, all);
+
 deltaX = x - prevX;
 deltaY = y - prevY;

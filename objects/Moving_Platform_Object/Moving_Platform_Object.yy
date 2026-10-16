@@ -47,7 +47,7 @@
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":true,
+  "solid":false,
   "spriteId":{
     "name":"Platform_Sprite",
     "path":"sprites/Platform_Sprite/Platform_Sprite.yy",

@@ -34,6 +34,18 @@ function update_Movement(character_input){
 		
 		
 	//Y Movement Logic
+		//update ground state
+		onGround = standingOn != noone;
+
+		if (!onGround) {
+		    var _ground = instance_place(x, y + 1, Block_Tile);
+
+		    if (_ground != noone) {
+		        if (!(_ground.object_index == Carryable_Object && _ground.carried)) {
+		            onGround = true;
+		        }
+		    }
+		}
 		
 		if (standingOn == noone){
 			ySpd += grav;
@@ -43,9 +55,6 @@ function update_Movement(character_input){
 			onGround = true;
 		}
 		
-		//update ground state
-		onGround = place_meeting(x, y + 1, Block_Tile);
-		
 		
 		//Ladder Logic
 		if (character_input.up && place_meeting(x, y, Ladder)){
@@ -53,8 +62,12 @@ function update_Movement(character_input){
 		}
 		
 		
+		
 		//Carryable collision
 		box = instance_place(x, y + ySpd, Carryable_Object);
+		
+		
+		
 		
 		if ((box == noone) || (box.carried == false)){
 			if (place_meeting(x, y + ySpd, Block_Tile)){ //Block Collision
@@ -76,6 +89,9 @@ function update_Movement(character_input){
 				}
 			}
 		}
+		
+		if (place_meeting(x,y,Carryable_Object)) onGround = false;
+
 		
 		
 		//Platform collision
