@@ -56,6 +56,7 @@
   },
   "name":"Island_Stuck_In_Time",
   "resources":[
+    {"id":{"name":"ft_timer","path":"fonts/ft_timer/ft_timer.yy",},},
     {"id":{"name":"Barrel_Broken_Object","path":"objects/Barrel_Broken_Object/Barrel_Broken_Object.yy",},},
     {"id":{"name":"Barrel_Object","path":"objects/Barrel_Object/Barrel_Object.yy",},},
     {"id":{"name":"Block_Tile","path":"objects/Block_Tile/Block_Tile.yy",},},
@@ -63,6 +64,7 @@
     {"id":{"name":"Carryable_Object","path":"objects/Carryable_Object/Carryable_Object.yy",},},
     {"id":{"name":"Exit_Button_Object","path":"objects/Exit_Button_Object/Exit_Button_Object.yy",},},
     {"id":{"name":"Gate_Object","path":"objects/Gate_Object/Gate_Object.yy",},},
+    {"id":{"name":"Invis_Ground","path":"objects/Invis_Ground/Invis_Ground.yy",},},
     {"id":{"name":"Ladder","path":"objects/Ladder/Ladder.yy",},},
     {"id":{"name":"Moving_Platform_Object","path":"objects/Moving_Platform_Object/Moving_Platform_Object.yy",},},
     {"id":{"name":"Platform_Object","path":"objects/Platform_Object/Platform_Object.yy",},},
@@ -119,7 +121,6 @@
     {"id":{"name":"Character_Carry_Jump","path":"sprites/Character_Carry_Jump/Character_Carry_Jump.yy",},},
     {"id":{"name":"Character_Carry_Walk","path":"sprites/Character_Carry_Walk/Character_Carry_Walk.yy",},},
     {"id":{"name":"Character_Carry","path":"sprites/Character_Carry/Character_Carry.yy",},},
-    {"id":{"name":"Character_Idle_1","path":"sprites/Character_Idle_1/Character_Idle_1.yy",},},
     {"id":{"name":"Character_Idle","path":"sprites/Character_Idle/Character_Idle.yy",},},
     {"id":{"name":"Character_Jump","path":"sprites/Character_Jump/Character_Jump.yy",},},
     {"id":{"name":"Character_Walk","path":"sprites/Character_Walk/Character_Walk.yy",},},
@@ -147,7 +148,6 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
     {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
     {"children":[
         {"roomId":{"name":"Starting_Mount","path":"rooms/Starting_Mount/Starting_Mount.yy",},},
@@ -169,6 +169,7 @@
       ],"groupName":"Loop 2",},
     {"roomId":{"name":"Game_Complete","path":"rooms/Game_Complete/Game_Complete.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
+    {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

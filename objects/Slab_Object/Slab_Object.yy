@@ -35,5 +35,5 @@
     "path":"sprites/Slab_Sprites/Slab_Sprites.yy",
   },
   "spriteMaskId":null,
-  "visible":true,
+  "visible":false,
 }

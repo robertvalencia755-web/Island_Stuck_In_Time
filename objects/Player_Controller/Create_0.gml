@@ -1,1 +1,3 @@
-lives = 30;
+lives = 25;
+time = 0;
+time_stamps = [];
