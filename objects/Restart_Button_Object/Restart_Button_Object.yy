@@ -33,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"Start_Button",
-    "path":"sprites/Start_Button/Start_Button.yy",
+    "name":"Restart_Button",
+    "path":"sprites/Restart_Button/Restart_Button.yy",
   },
   "spriteMaskId":null,
   "visible":true,

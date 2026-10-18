@@ -1,5 +1,4 @@
 
-alt_down = true
 if (keyboard_check_pressed(ord("R"))){ // teleport to spawn
 	Player_Object.x = global.spawnX
 	Player_Object.y = global.spawnY

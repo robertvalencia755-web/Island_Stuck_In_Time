@@ -1,1 +1,1 @@
-draw_text(300, 20, "Box Ground: " + string(onGround));
+//draw_text(300, 20, "Box Ground: " + string(onGround));

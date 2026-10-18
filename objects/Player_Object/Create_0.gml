@@ -2,6 +2,9 @@
 movement_list = [];
 var character_input;
 
+spawnX = x;
+spawnY = y;
+
 //Movement Variables
 moveDir = 0;
 moveSpd = 4;
