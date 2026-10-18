@@ -63,12 +63,14 @@
     {"id":{"name":"Block_Tile","path":"objects/Block_Tile/Block_Tile.yy",},},
     {"id":{"name":"Button_Object","path":"objects/Button_Object/Button_Object.yy",},},
     {"id":{"name":"Carryable_Object","path":"objects/Carryable_Object/Carryable_Object.yy",},},
+    {"id":{"name":"Controls_Button_Object","path":"objects/Controls_Button_Object/Controls_Button_Object.yy",},},
     {"id":{"name":"Exit_Button_Object","path":"objects/Exit_Button_Object/Exit_Button_Object.yy",},},
     {"id":{"name":"Gate_Object","path":"objects/Gate_Object/Gate_Object.yy",},},
     {"id":{"name":"Invis_Ground","path":"objects/Invis_Ground/Invis_Ground.yy",},},
     {"id":{"name":"Ladder","path":"objects/Ladder/Ladder.yy",},},
     {"id":{"name":"Moving_Platform_Object","path":"objects/Moving_Platform_Object/Moving_Platform_Object.yy",},},
     {"id":{"name":"Next_Button_Object","path":"objects/Next_Button_Object/Next_Button_Object.yy",},},
+    {"id":{"name":"Pause_Object","path":"objects/Pause_Object/Pause_Object.yy",},},
     {"id":{"name":"Platform_Object","path":"objects/Platform_Object/Platform_Object.yy",},},
     {"id":{"name":"Player_Clone_Death_Object","path":"objects/Player_Clone_Death_Object/Player_Clone_Death_Object.yy",},},
     {"id":{"name":"Player_Clone_Handler","path":"objects/Player_Clone_Handler/Player_Clone_Handler.yy",},},
@@ -129,6 +131,7 @@
     {"id":{"name":"Character_Idle","path":"sprites/Character_Idle/Character_Idle.yy",},},
     {"id":{"name":"Character_Jump","path":"sprites/Character_Jump/Character_Jump.yy",},},
     {"id":{"name":"Character_Walk","path":"sprites/Character_Walk/Character_Walk.yy",},},
+    {"id":{"name":"Controls_Button","path":"sprites/Controls_Button/Controls_Button.yy",},},
     {"id":{"name":"Empty_Mask","path":"sprites/Empty_Mask/Empty_Mask.yy",},},
     {"id":{"name":"Exit_Button","path":"sprites/Exit_Button/Exit_Button.yy",},},
     {"id":{"name":"Forest_1_Sprite","path":"sprites/Forest_1_Sprite/Forest_1_Sprite.yy",},},
@@ -161,6 +164,7 @@
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
     {"roomId":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},},
+    {"roomId":{"name":"Instructions","path":"rooms/Instructions/Instructions.yy",},},
     {"children":[
         {"roomId":{"name":"Starting_Mount","path":"rooms/Starting_Mount/Starting_Mount.yy",},},
         {"roomId":{"name":"Forest","path":"rooms/Forest/Forest.yy",},},
@@ -183,7 +187,6 @@
     {"roomId":{"name":"View_Score","path":"rooms/View_Score/View_Score.yy",},},
     {"roomId":{"name":"Game_Over","path":"rooms/Game_Over/Game_Over.yy",},},
     {"roomId":{"name":"Testing","path":"rooms/Testing/Testing.yy",},},
-    {"roomId":{"name":"Instructions","path":"rooms/Instructions/Instructions.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
