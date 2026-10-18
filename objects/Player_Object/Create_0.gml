@@ -17,4 +17,3 @@ carriedItem = noone;
 onGround = true;
 standingOn = noone;
 facing = 1;
-
