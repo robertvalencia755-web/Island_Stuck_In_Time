@@ -23,5 +23,6 @@ function reset_clones(){
 }
 
 function clear_clones(){
+	instance_destroy(Player_Clone_Object);
 	clone_movements = [];
 }

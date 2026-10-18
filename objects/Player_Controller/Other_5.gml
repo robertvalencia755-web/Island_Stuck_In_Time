@@ -1,1 +1,1 @@
-array_push(time_stamps, output);
+array_push(time_stamps, time);
