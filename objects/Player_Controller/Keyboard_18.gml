@@ -9,6 +9,8 @@ if (keyboard_check_pressed(ord("R"))){ // teleport to spawn
 	y = Room_Complete_Object;
 } else if (keyboard_check_pressed(ord("N"))){
 	room_goto_next();
+} else if (keyboard_check_pressed(ord("P"))){
+	lives = 1;
 } else if (keyboard_check(vk_shift)){
 	
 	if (keyboard_check_pressed(ord("0"))){

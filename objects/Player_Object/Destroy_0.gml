@@ -8,6 +8,8 @@ if (lives > 0) {
 	}
 
 	instance_create_layer(x, y, "Player", Player_Death_Object);
+} else if (lives == 0) {
+	room_goto(Game_Over);
 }
 
 
