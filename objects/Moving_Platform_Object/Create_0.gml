@@ -1,6 +1,14 @@
 
 start = true;
 
+button = false
+move = true;
+if (Button_Channel != -1) {
+	button = true;
+	move = false;
+}
+	
+
 startX = x;
 startY = y;
 

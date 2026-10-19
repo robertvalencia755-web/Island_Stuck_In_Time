@@ -1,9 +1,11 @@
 carried = false;
+onGround = true;
 offsetX = 15;
 offsetY = 64;
 var otherX;
 var otherY;
 ySpd = 0;
+standingOn = noone;
 
 prevX = x;
 prevY = y;

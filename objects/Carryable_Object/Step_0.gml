@@ -1,10 +1,17 @@
 prevX = x;
 prevY = y;
 
+onGround = false;
+
+
 if (carried){
 	x = otherX;
 	y = otherY;
 } else{
+	//get_standing();
+	
+	//update_moving_surface();
+	
 	
 	ySpd += 4;
 	
@@ -15,6 +22,7 @@ if (carried){
 			y += _pixelCheck;
 		}
 		ySpd = 0;
+		onGround = true;
 	}
 	
 	
@@ -25,11 +33,19 @@ if (carried){
 			y += _pixelCheck;
 		}
 		ySpd = 0;
+		onGround = true;
 	}
+	
+	
+	
+	
+	
 	
 	y += ySpd;
 	
 }
+
+//standingOn = instance_place(x, y - 1, all);
 
 deltaX = x - prevX;
 deltaY = y - prevY;

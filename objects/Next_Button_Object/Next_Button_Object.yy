@@ -1,0 +1,43 @@
+{
+  "$GMObject":"",
+  "%Name":"Next_Button_Object",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
+  "managed":true,
+  "name":"Next_Button_Object",
+  "overriddenProperties":[],
+  "parent":{
+    "name":"Menu Objects",
+    "path":"folders/Objects/Menu Objects.yy",
+  },
+  "parentObjectId":{
+    "name":"Start_Button_Object",
+    "path":"objects/Start_Button_Object/Start_Button_Object.yy",
+  },
+  "persistent":false,
+  "physicsAngularDamping":0.1,
+  "physicsDensity":0.5,
+  "physicsFriction":0.2,
+  "physicsGroup":1,
+  "physicsKinematic":false,
+  "physicsLinearDamping":0.1,
+  "physicsObject":false,
+  "physicsRestitution":0.1,
+  "physicsSensor":false,
+  "physicsShape":1,
+  "physicsShapePoints":[],
+  "physicsStartAwake":true,
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"Room_Chosen","filters":[],"listItems":[],"multiselect":false,"name":"Room_Chosen","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"instance_exists(Pause_Object) ? Pause_Object.currRoom : Starting_Mount","varType":4,},
+  ],
+  "resourceType":"GMObject",
+  "resourceVersion":"2.0",
+  "solid":false,
+  "spriteId":{
+    "name":"Next_Button",
+    "path":"sprites/Next_Button/Next_Button.yy",
+  },
+  "spriteMaskId":null,
+  "visible":true,
+}

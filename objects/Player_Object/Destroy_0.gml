@@ -1,4 +1,16 @@
-if (carrying == true) carriedItem.death_place(x, y);
-Player_Clone_Handler.add_clone(movement_list);
-Player_Clone_Handler.reset_clones();
-instance_destroy();
+lives -= 1;
+
+if (lives > 0) {
+	if (carrying == true) carriedItem.death_place(x, y);
+	if (instance_exists(Player_Clone_Handler)){
+		Player_Clone_Handler.add_clone(movement_list);
+		Player_Clone_Handler.reset_clones();
+	}
+
+	instance_create_layer(x, y, "Player", Player_Death_Object);
+} else if (lives == 0) {
+	room_goto(Game_Over);
+}
+
+
+	

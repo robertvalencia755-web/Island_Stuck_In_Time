@@ -16,5 +16,6 @@ carriedItem = noone;
 onGround = true;
 facing = 1;
 currentMove = 0;
+standingOn = noone
 
 image_blend = c_blue;
