@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"GUI",
-    "path":"folders/Sprites/GUI.yy",
+    "name":"Buttons",
+    "path":"folders/Sprites/GUI/Buttons.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
