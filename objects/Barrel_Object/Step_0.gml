@@ -3,6 +3,9 @@ if (pushed == true){
 	xSpd = facing * move_speed;
 	image_xscale = -facing;
 	sprite_index = Rolling_Barrel;
+	if (!audio_is_playing(Barrel_Roll_Sound)){
+		audio_play_sound(Barrel_Roll_Sound, 1, false);
+	}
 
 	ySpd += 2;
 	
@@ -27,6 +30,8 @@ if (pushed == true){
 
 	ySpd = min(ySpd, 8);
 	y += ySpd;
+	
+	
 
 	if ((place_empty(x + xSpd, y)) || (place_meeting(x + xSpd, y, Player_Object)) || (place_meeting(x + xSpd, y, Spike_Object))){
 		x += xSpd;

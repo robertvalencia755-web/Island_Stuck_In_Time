@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Wind_Sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":42.744015,
+  "exportDir":"",
+  "name":"Wind_Sound",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Wind_Sound.mp3",
+  "volume":1.0,
+}

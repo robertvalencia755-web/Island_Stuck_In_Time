@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Loop_1_Music",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":54.857143,
+  "exportDir":"",
+  "name":"Loop_1_Music",
+  "parent":{
+    "name":"Background Music",
+    "path":"folders/Sounds/Background Music.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Loop_1_Music.mp3",
+  "volume":1.0,
+}

@@ -20,4 +20,5 @@ switch (color){
 
 
 pressed = false;
+sound = true;
 image_index = up;

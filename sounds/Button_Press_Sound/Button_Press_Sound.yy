@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Button_Press_Sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":0.3148526,
+  "exportDir":"",
+  "name":"Button_Press_Sound",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Button_Press_Sound.wav",
+  "volume":1.0,
+}

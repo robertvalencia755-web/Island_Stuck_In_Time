@@ -1,0 +1,26 @@
+{
+  "$GMSound":"v2",
+  "%Name":"Barrel_Roll_Sound",
+  "audioGroupId":{
+    "name":"audiogroup_default",
+    "path":"audiogroups/audiogroup_default",
+  },
+  "bitDepth":1,
+  "channelFormat":0,
+  "compression":0,
+  "compressionQuality":4,
+  "conversionMode":0,
+  "duration":5.7785487,
+  "exportDir":"",
+  "name":"Barrel_Roll_Sound",
+  "parent":{
+    "name":"Sound Effects",
+    "path":"folders/Sounds/Sound Effects.yy",
+  },
+  "preload":false,
+  "resourceType":"GMSound",
+  "resourceVersion":"2.0",
+  "sampleRate":44100,
+  "soundFile":"Barrel_Roll_Sound.wav",
+  "volume":1.0,
+}
